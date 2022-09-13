@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <form style="color: aquamarine;">
+          <input type="text" id="diameter" placeholder="diameter ban"> <br><br>
+          <input type="text" id="langkah" placeholder="langkah"> <br><br>
+          <button onclick="fan()">Masukkan</button>
+        </form>
+        <script type="text/javascript">
+            //cc motor
+            function fan(){
+                var w =document.getElementById("diameter").value;
+                var l =document.getElementById("langkah").value;
+                this.hasil(w,l);
+            }
+
+            function hasil(w,l,){
+                 r = 0.785;
+                hasila = r * ( w * w ) * l;
+                return document.write("hasilnya : " + hasila + " CC");        
+            }
+        </script>
+    </body>
+</html>

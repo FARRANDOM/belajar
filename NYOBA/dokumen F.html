@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>dokumen mantabebe</title>
+</head>
+<body onload="welcome()">
+    <script>
+        function welcome() {
+            confirm("selamat datang");
+            var a = prompt ("apakah kamu ingin bermain ? (ya/tidak)")
+            if (a == "ya") {alert ("baiklah :)");
+        } else { alert("ok lol :p");
+    }
+            var nama = prompt ("Pertama siapakah namamu?" ,  "Tulis namamu disini");
+            
+            var kabar = prompt ("Halo, " + nama + " Apa kabar ? (baik/lainnya)");
+            if (kabar == "baik") { alert ("Alhamdulillah, mari lanjut");
+        } else {alert("OK aku gak peduli, mari lanjut")}
+           
+          var umur = prompt ("Berapa umur mu?");
+          var kota = prompt ("dari mana asal mu?");
+          var sekolah = prompt ("Dimana sekolah mu?");
+    
+     document.write ("Halo " + nama + ",selamat pagi" + " kabarmu sedang " + kabar + " ya?" + " woah kamu ternyata masih berumur "
+     + umur + " tahun" + " kamu ternyata juga tinggal di " + kota + " dan juga bersekolah di " + sekolah + "."
+          )
+        
+        }
+          
+        
+    </script>
+  
+</body>
+</html>

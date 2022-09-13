@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form style="border: 2rem; color:black;">
+            <input type="text" id="nama" placeholder="nama" /><br /><br />
+            <input type="text" id="pass" placeholder="Password" /><br /><br />
+            <button onclick="fun()">Submit</button>
+        </form>
+        <script type="text/javascript">
+            function fun() {
+                var i = document.getElementById("nama").value;
+                var ii = document.getElementById("pass").value;
+                this.login(i,ii);
+            }
+
+            function login(nama, pass) {
+                if(nama == "kopi" && pass == "kopihitam") {
+                    return document.write('data benar');
+                } else {
+                    document.write('data salah');
+                }
+            }
+        </script>
+    </body>
+</html>

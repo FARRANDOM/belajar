@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html></html>
+<body>
+    <button type="button"onclick="myfunction()">Count!</button>
+    <p id = "demo">0</p>
+    <script>
+     function add(){
+        var counter = 0;
+        counter += 1;
+        return counter;
+     }
+     function myfunction(){
+        document.getElementById("demo").innerHTML = add();
+     }
+    </script>
+</body>

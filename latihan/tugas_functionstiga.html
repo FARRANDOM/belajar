@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form style="background-color: aquamarine;">
+          <input type="text" id="alas" placeholder="Tuliskan alasnya"> <br><br>
+          <input type="text" id="tinggi" placeholder="Tuliskan Tingginya"> <br><br>
+          <button onclick="segitiga()">Masukkan</button>
+        </form>
+        <script type="text/javascript">
+            function segitiga(){
+                alas = document.getElementById("alas").value;
+                tinggi = document.getElementById("tinggi").value;
+                
+                this.rumus(alas,tinggi,);
+            }
+
+            function rumus(alas,tinggi,){
+                angka = 1/2;
+                rums = angka*alas*tinggi;
+                return document.write("Hasilnya adalah = " + rums)
+            }
+        </script>
+    </body>
+</html>
