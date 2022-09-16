@@ -1,0 +1,73 @@
+{
+    "struktur_sekolah" : {
+        "kepala_sekolah":[
+            {
+                "nama":"Agus Riyanta", 
+                "umur":"50 an", 
+                "jenis_kelamin":"laki-laki",
+                "wakil_kepala_sekolah":[ 
+                    {
+                    "nama":"jamal", 
+                    "umur":"40 an", 
+                    "jenis_kelamin":"laki-laki"
+                }
+            ]
+        }
+        ],
+        
+        "prasarana":[
+            {
+                "nama":"Miftah", 
+                "umur":"40 an", 
+                "jenis_kelamin":"laki-laki",
+                "OB":[
+                    {
+                       "nama":"cepi",
+                       "umur":"50 an",
+                       "jenis_kelamin":"laki laki"
+                    }
+                ]
+            }
+        ],
+        "Guru":[
+            {
+                "nama":"Aini",
+                "mapel":"Arab"
+            },
+            {
+                "nama":"Heri",
+                "mapel":"Biologi"
+            },
+            {
+                "nama":"jamal",
+                "mapel":"B Indo"
+            },
+            {
+                "nama":"Ali", 
+                "mapel":"Quran", 
+                "Walas":[
+                    {
+                        "walas":"XI 4",
+                        "Struktur_kelas":[
+                            {
+                               "Ketua_kelas":[
+                                {
+                                    "nama":"Vito", 
+                                    "umur":"16", 
+                                    "wakil":[
+                                        {
+                                            "nama":"Naufal", 
+                                            "umur":"16"
+                                        }
+                                    ]
+                                }
+                               ]
+                            }
+                        ]
+                    }
+                ]
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "hewan" : {
+        "Jenis":"mamalia",
+        "nama":"harimau",
+        "makanan":{
+             "makanan1":"daging kambing",
+             "makanan2":"daging sapi",
+             "makanan3":"daging monyet"
+        }
+    }
+}
